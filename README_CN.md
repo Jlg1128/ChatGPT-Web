@@ -169,7 +169,7 @@ BASE_URL=https://b.nextweb.fun/api/proxy
 ```shell
 docker pull yidadaa/chatgpt-next-web
 
-docker run -d -p 3000:3000 \
+docker run -d -p 1002:1002 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=页面访问密码 \
    yidadaa/chatgpt-next-web
@@ -178,7 +178,7 @@ docker run -d -p 3000:3000 \
 你也可以指定 proxy：
 
 ```shell
-docker run -d -p 3000:3000 \
+docker run -d -p 1002:1002 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=页面访问密码 \
    --net=host \
