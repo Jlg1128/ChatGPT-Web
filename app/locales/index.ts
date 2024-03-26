@@ -97,7 +97,7 @@ function setItem(key: string, value: string) {
 
 function getLanguage() {
   try {
-    return navigator.language.toLowerCase();
+    return 'cn';
   } catch {
     return DEFAULT_LANG;
   }
