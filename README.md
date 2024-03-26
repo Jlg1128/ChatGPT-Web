@@ -271,7 +271,7 @@ yarn dev
 ```shell
 docker pull yidadaa/chatgpt-next-web
 
-docker run -d -p 3000:3000 \
+docker run -d -p 3002:3002 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
    yidadaa/chatgpt-next-web
@@ -280,7 +280,7 @@ docker run -d -p 3000:3000 \
 You can start service behind a proxy:
 
 ```shell
-docker run -d -p 3000:3000 \
+docker run -d -p 3002:3002 \
    -e OPENAI_API_KEY=sk-xxxx \
    -e CODE=your-password \
    -e PROXY_URL=http://localhost:7890 \
